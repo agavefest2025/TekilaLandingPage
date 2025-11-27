@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 30px;
-            background-color: #f4f4f9;
+            background-color: #797979;
             color: #333;
         }
         h1 {
@@ -37,6 +37,43 @@
         .opening-hours p {
             margin: 5px 0;
         }
+
+        footer {
+          background-color: #333;
+          color: #fff;
+          padding: 20px;
+          font-family: Arial, sans-serif;
+        }
+    
+        .footer-container {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          gap: 20px;
+        }
+    
+        .footer-section {
+          flex: 1;
+          min-width: 200px;
+        }
+    
+        h2, h3 {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+        }
+    
+        .contact-info p, .hours p {
+          margin: 5px 0;
+        }
+    
+        .contact-info a, .hours a {
+          color: #ff6347;
+          text-decoration: none;
+        }
+    
+        .contact-info a:hover, .hours a:hover {
+          text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -63,12 +100,47 @@
     </div>
 
     <!-- Tekila888 Inc -->
-    <h2>Tekila888 Inc</h2>
+        <h2>Tekila888 Inc</h2>
 
-    <div class="contact-info">
-        <p><strong>Phone (Viber/Whatsapp):</strong> <a href="tel:+639690159706">+63 969 015 9706</a></p>
-        <p><strong>Email:</strong> <a href="mailto:sales@tekilaph.com">sales@tekilaph.com</a></p>
-    </div>
+        <div class="contact-info">
+            <p><strong>Phone (Viber/Whatsapp):</strong> <a href="tel:+639690159706">+63 969 015 9706</a></p>
+            <p><strong>Email:</strong> <a href="mailto:sales@tekilaph.com">sales@tekilaph.com</a></p>
+        </div>
+
+        <div class="footer-container">
+        
+        <!-- Tekila Bar Section -->
+        <div class="footer-section">
+          <h2>Tekila Bar</h2>
+          <div class="contact-info">
+            <p><strong>Phone:</strong> <a href="tel:+639399085452">+63 939 908 5452</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/tekilaph/" target="_blank">@tekilaph</a></p>
+            <p><strong>Address:</strong> <a href="https://www.google.com/maps?q=G/F,%20BGC%20Corporate%20Center%20Two,%205th%20Avenue,%20Cor.%2030th%20St.%20Taguig,%201634%20Metro%20Manila" target="_blank">G/F, BGC Corporate Center Two, 5th Avenue, Cor. 30th St. Taguig, 1634 Metro Manila</a></p>
+          </div>
+        </div>
+
+        <!-- Opening Hours Section -->
+        <div class="footer-section">
+          <h3>Opening Hours</h3>
+          <div class="hours">
+            <p><strong>Tuesdays - Saturdays:</strong></p>
+            <p>Lunch: 11 AM – 2 PM</p>
+            <p>Dinner: 7 PM – 2 AM</p>
+            <p><strong>Closed on Sundays & Mondays</strong></p>
+          </div>
+        </div>
+
+        <!-- Tekila888 Inc Section -->
+        <div class="footer-section">
+          <h2>Tekila888 Inc</h2>
+          <div class="contact-info">
+            <p><strong>Phone (Viber/Whatsapp):</strong> <a href="tel:+639690159706">+63 969 015 9706</a></p>
+            <p><strong>Email:</strong> <a href="mailto:sales@tekilaph.com">sales@tekilaph.com</a></p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
 
 </body>
 </html>
